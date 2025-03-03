@@ -3,10 +3,6 @@
         {
             "path": "dependencies/localhost/carpediem/notes",
             "name": "carpediem"
-        },
-        {
-            "path": "notes",
-            "name": "carpediem"
         }
     ],
     "settings": {
