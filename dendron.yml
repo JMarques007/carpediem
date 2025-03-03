@@ -87,6 +87,7 @@ publishing:
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
+    siteUrl: https://jmarques007.github.io/carpediem/
     siteHierarchies:
         - root
     writeStubs: false
