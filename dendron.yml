@@ -23,6 +23,10 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: dependencies/localhost/carpediem
+            selfContained: true
+            name: carpediem
+        -
             fsPath: .
             selfContained: true
             name: carpediem
@@ -87,7 +91,6 @@ publishing:
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
-    siteUrl: https://jmarques007.github.io/carpediem/
     siteHierarchies:
         - root
     writeStubs: false
@@ -107,3 +110,9 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: search
+    siteUrl: https://jmarques007.github.io/carpediem/
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - carpediem
+            - carpediem
